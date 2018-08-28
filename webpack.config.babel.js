@@ -39,7 +39,7 @@ module.exports = {
           {
             loader: 'css-loader',
             options: {
-              url: false,
+              url: true,
               sourceMap: enabledSourceMap,
               importLoader: 2
             }
@@ -51,6 +51,18 @@ module.exports = {
             }
           }
         ]
+      },
+      {
+        test: /\.(gif|png|jpg|eot|wof|woff|woff2|ttf|svg)$/,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 100 * 1024,
+              name: './img/[name].[ext]'
+            }
+          }
+        ]
       }
     ]
   },
@@ -58,7 +70,7 @@ module.exports = {
     extensions: ['.js', '.jsx']
   },
   devServer: {
-    contentBase: 'dist',
+    contentBase: 'client/www',
     open: true
   }
 };
