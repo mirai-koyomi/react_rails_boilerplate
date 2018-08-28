@@ -1,6 +1,6 @@
 // @flow
 import React, { Component } from 'react'
-import '../css/index.css'
+import '../css/index.sass'
 class App extends Component {
   render () {
     return (

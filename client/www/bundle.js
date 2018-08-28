@@ -86,15 +86,15 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./client/src/css/index.css":
-/*!**********************************!*\
-  !*** ./client/src/css/index.css ***!
-  \**********************************/
+/***/ "./client/src/css/index.sass":
+/*!***********************************!*\
+  !*** ./client/src/css/index.sass ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!./index.css */ "./node_modules/css-loader/index.js?!./client/src/css/index.css");
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/sass-loader/lib/loader.js??ref--6-2!./index.sass */ "./node_modules/css-loader/index.js?!./node_modules/sass-loader/lib/loader.js?!./client/src/css/index.sass");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -136,7 +136,7 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(/*! ../css/index.css */ "./client/src/css/index.css");
+__webpack_require__(/*! ../css/index.sass */ "./client/src/css/index.sass");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -182,10 +182,10 @@ exports.default = App;
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./client/src/css/index.css":
-/*!**********************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./client/src/css/index.css ***!
-  \**********************************************************************/
+/***/ "./node_modules/css-loader/index.js?!./node_modules/sass-loader/lib/loader.js?!./client/src/css/index.sass":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/sass-loader/lib/loader.js??ref--6-2!./client/src/css/index.sass ***!
+  \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -194,7 +194,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "body {\n  background-color: #efefef;\n}", "", {"version":3,"sources":["/Applications/XAMPP/xamppfiles/htdocs/devel/sandbox/react_rails_boilerplate/client/src/css/index.css"],"names":[],"mappings":"AAAA;EACE,0BAA0B;CAC3B","file":"index.css","sourcesContent":["body {\n  background-color: #efefef;\n}"],"sourceRoot":""}]);
+exports.push([module.i, "body {\n  background-color: #efefef; }\n", "", {"version":3,"sources":["/Applications/XAMPP/xamppfiles/htdocs/devel/sandbox/react_rails_boilerplate/client/src/css/client/src/css/index.sass"],"names":[],"mappings":"AAAA;EACE,0BAAyB,EAAG","file":"index.sass","sourcesContent":["body {\n  background-color: #efefef; }\n"],"sourceRoot":""}]);
 
 // exports
 

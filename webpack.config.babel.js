@@ -33,14 +33,20 @@ module.exports = {
         loader: 'eslint-loader'
       },
       {
-        test: /\.css/,
+        test: /\.(sass|scss)$/,
         use: [
           'style-loader',
           {
             loader: 'css-loader',
             options: {
               url: false,
-              minimize: true,
+              sourceMap: enabledSourceMap,
+              importLoader: 2
+            }
+          },
+          {
+            loader: 'sass-loader',
+            options: {
               sourceMap: enabledSourceMap
             }
           }
