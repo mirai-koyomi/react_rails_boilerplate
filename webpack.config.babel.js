@@ -1,7 +1,9 @@
 const path = require('path');
+const MODE = 'development';
+const enabledSourceMap = (MODE === 'development');
 
 module.exports = {
-  mode: 'development',
+  mode: MODE,
   devtool: 'source-map',
   entry: {
     'index': [path.resolve(__dirname, 'client/index.js')]
@@ -29,6 +31,20 @@ module.exports = {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         loader: 'eslint-loader'
+      },
+      {
+        test: /\.css/,
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              url: false,
+              minimize: true,
+              sourceMap: enabledSourceMap
+            }
+          }
+        ]
       }
     ]
   },
