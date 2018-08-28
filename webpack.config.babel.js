@@ -6,7 +6,7 @@ module.exports = {
   mode: MODE,
   devtool: 'source-map',
   entry: {
-    'index': [path.resolve(__dirname, 'client/index.js')]
+    'index': [path.resolve(__dirname, 'client/src/js/index.js')]
   },
   output: {
     path: `${__dirname}/client/www`,
