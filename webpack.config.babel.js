@@ -34,5 +34,9 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.jsx']
+  },
+  devServer: {
+    contentBase: 'dist',
+    open: true
   }
 };
