@@ -4,7 +4,6 @@ const enabledSourceMap = (MODE === 'development');
 
 module.exports = {
   mode: MODE,
-  devtool: 'source-map',
   entry: {
     'index': [path.resolve(__dirname, 'client/src/js/index.js')]
   },
@@ -16,21 +15,17 @@ module.exports = {
     rules: [
       {
         test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
         use: [
           {
             loader: 'babel-loader',
             options: {
-              presets: [['env', { modules: false }]]
+              presets: [
+                '@babel/preset-env',
+                '@babel/react'
+              ]
             }
           }
         ]
-      },
-      {
-        enforce: 'pre',
-        test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
-        loader: 'eslint-loader'
       },
       {
         test: /\.(sass|scss)$/,
