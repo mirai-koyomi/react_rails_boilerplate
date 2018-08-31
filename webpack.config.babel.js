@@ -11,6 +11,7 @@ module.exports = {
     path: `${__dirname}/client/www`,
     filename: 'bundle.js'
   },
+  devtool: 'source-map',
   module: {
     rules: [
       {
@@ -37,6 +38,17 @@ module.exports = {
               url: true,
               sourceMap: enabledSourceMap,
               importLoader: 2
+            }
+          },
+          {
+            loader: 'postcss-loader',
+            options: {
+              sourceMap: enabledSourceMap,
+              plugins: [
+                require('autoprefixer')({grid: true, browsers: ['last 1 versions']}),
+                require('postcss-assets')({loadPaths: ['./client/src/img/'], cachebuster: true, relative: './client/src/css/'}),
+                require('css-declaration-sorter')({order: 'smaccs'})
+              ]
             }
           },
           {
