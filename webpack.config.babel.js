@@ -47,7 +47,9 @@ module.exports = {
               plugins: [
                 require('autoprefixer')({grid: true, browsers: ['last 1 versions']}),
                 require('postcss-assets')({loadPaths: ['./client/src/img/'], cachebuster: true, relative: './client/src/css/'}),
-                require('css-declaration-sorter')({order: 'smaccs'})
+                require('css-declaration-sorter')({order: 'smacss'}),
+                require('css-mqpacker'),
+                require('cssnano')
               ]
             }
           },
