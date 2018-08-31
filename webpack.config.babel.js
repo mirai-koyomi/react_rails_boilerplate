@@ -25,6 +25,13 @@ module.exports = {
                 '@babel/react'
               ]
             }
+          },
+          {
+            loader: 'eslint-loader',
+            options: {
+              fix: true,
+              failOnError: true
+            }
           }
         ]
       },
