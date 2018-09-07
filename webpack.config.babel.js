@@ -53,7 +53,7 @@ module.exports = {
               sourceMap: enabledSourceMap,
               plugins: [
                 require('postcss-import'),
-                require('stylelint')({failOnError: true}),
+                require('stylelint')({failOnError: true, fix: true}),
                 require('autoprefixer')({grid: true, browsers: ['last 1 versions']}),
                 require('postcss-assets')({loadPaths: ['./client/src/img/'], cachebuster: true, relative: './client/src/css/'}),
                 require('css-declaration-sorter')({order: 'smacss'}),
