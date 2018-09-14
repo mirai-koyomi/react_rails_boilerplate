@@ -86,15 +86,15 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./client/src/css/index.sass":
+/***/ "./client/src/css/index.scss":
 /*!***********************************!*\
-  !*** ./client/src/css/index.sass ***!
+  !*** ./client/src/css/index.scss ***!
   \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--5-1!../../../node_modules/postcss-loader/src??ref--5-2!../../../node_modules/sass-loader/lib/loader.js??ref--5-3!./index.sass */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./client/src/css/index.sass");
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--5-1!../../../node_modules/postcss-loader/src??ref--5-2!../../../node_modules/sass-loader/lib/loader.js??ref--5-3!./index.scss */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./client/src/css/index.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -149,8 +149,8 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACLCAIAAAA8
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_polyfill__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/polyfill */ "./node_modules/@babel/polyfill/lib/index.js");
 /* harmony import */ var _babel_polyfill__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_polyfill__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _css_index_sass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/index.sass */ "./client/src/css/index.sass");
-/* harmony import */ var _css_index_sass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_index_sass__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _css_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/index.scss */ "./client/src/css/index.scss");
+/* harmony import */ var _css_index_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_index_scss__WEBPACK_IMPORTED_MODULE_1__);
 // @flow
 
 
@@ -9772,9 +9772,9 @@ module.exports = __webpack_require__(/*! ../modules/_core */ "./node_modules/cor
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./client/src/css/index.sass":
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./client/src/css/index.scss":
 /*!**********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/lib/loader.js??ref--5-3!./client/src/css/index.sass ***!
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./node_modules/sass-loader/lib/loader.js??ref--5-3!./client/src/css/index.scss ***!
   \**********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -9785,7 +9785,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "body{background-color:#efefef;width:1500px}body,body .header{background-image:url(" + escape(__webpack_require__(/*! ../img/drops.png?1657eba5790 */ "./client/src/img/drops.png?1657eba5790")) + ")}body .profile{background-image:url(" + escape(__webpack_require__(/*! ../img/profile.png?15b6b417a68 */ "./client/src/img/profile.png?15b6b417a68")) + ")}", "", {"version":3,"sources":["/Applications/XAMPP/xamppfiles/htdocs/devel/sandbox/react_rails_boilerplate/client/src/css/index.sass"],"names":[],"mappings":"AAAA,KACE,yBAAyB,YAEO,CAHlC,kBAEE,8CAAsC,CAFxC,cAQI,8CAAwC,CAAG","file":"index.sass","sourcesContent":["body {\n  background-color: #efefef;\n  background-image: resolve('drops.png');\n  width: width('../img/drops.png');\n\n  .header {\n    background-image: resolve('drops.png'); }\n  .profile {\n    background-image: resolve('profile.png'); } }\n"],"sourceRoot":""}]);
+exports.push([module.i, "body {\n  background-color: #efefef;\n  background-image: url(" + escape(__webpack_require__(/*! ../img/drops.png?1657eba5790 */ "./client/src/img/drops.png?1657eba5790")) + ");\n  width: 1500px; }\n  body .header {\n    background-image: url(" + escape(__webpack_require__(/*! ../img/drops.png?1657eba5790 */ "./client/src/img/drops.png?1657eba5790")) + "); }\n  body .profile {\n    background-image: url(" + escape(__webpack_require__(/*! ../img/profile.png?15b6b417a68 */ "./client/src/img/profile.png?15b6b417a68")) + "); }\n\n.test .inner {\n  padding: 20px; }\n\n.game {\n  color: #fff; }\n\n.normal {\n  color: #fff; }\n", "", {"version":3,"sources":["/Applications/XAMPP/xamppfiles/htdocs/devel/sandbox/react_rails_boilerplate/client/src/css/index.scss"],"names":[],"mappings":"AAAA;EACE,0BAAyB;EACzB,gDAAsC;EACtC,cAAgC,EASjC;EAZD;IAMI,gDAAsC,EACvC;EAPH;IAUI,gDAAwC,EACzC;;AAGH;EAEI,cAAa,EACd;;AAGH;EACE,YAAW,EACZ;;AAED;EACE,YAAW,EACZ","file":"index.scss","sourcesContent":["body {\n  background-color: #efefef;\n  background-image: resolve(\"drops.png\");\n  width: width(\"../img/drops.png\");\n\n  .header {\n    background-image: resolve(\"drops.png\");\n  }\n\n  .profile {\n    background-image: resolve(\"profile.png\");\n  }\n}\n\n.test {\n  .inner {\n    padding: 20px;\n  }\n}\n\n.game {\n  color: #fff;\n}\n\n.normal {\n  color: #fff;\n}\n"],"sourceRoot":""}]);
 
 // exports
 

@@ -1,0 +1,27 @@
+body {
+  background-color: #efefef;
+  background-image: resolve("drops.png");
+  width: width("../img/drops.png");
+
+  .header {
+    background-image: resolve("drops.png");
+  }
+
+  .profile {
+    background-image: resolve("profile.png");
+  }
+}
+
+.test {
+  .inner {
+    padding: 20px;
+  }
+}
+
+.game {
+  color: #fff;
+}
+
+.normal {
+  color: #fff;
+}

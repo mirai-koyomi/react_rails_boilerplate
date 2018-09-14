@@ -1,3 +1,3 @@
 // @flow
 import '@babel/polyfill'
-import '../css/index.sass'
+import '../css/index.scss'
