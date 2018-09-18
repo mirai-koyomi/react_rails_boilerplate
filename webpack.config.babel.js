@@ -48,24 +48,23 @@ module.exports = {
             }
           },
           {
-            loader: 'sass-loader',
-            options: {
-              sourceMap: enabledSourceMap,
-            }
-          },
-          {
             loader: 'postcss-loader',
             options: {
               sourceMap: enabledSourceMap,
               plugins: [
                 require('postcss-import'),
-                require('stylelint')({failOnError: true}),
                 require('autoprefixer')({grid: true, browsers: ['last 1 versions']}),
                 require('postcss-assets')({loadPaths: ['./client/src/img/'], cachebuster: true, relative: './client/src/css/'}),
                 require('css-declaration-sorter')({order: 'smacss'}),
                 require('css-mqpacker'),
                 require('cssnano'),
               ]
+            }
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              sourceMap: enabledSourceMap,
             }
           },
         ]
@@ -87,6 +86,9 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx']
   },
+  plugins: [
+    require('stylelint-webpack-plugin')({fix: true})
+  ],
   devServer: {
     contentBase: 'client/www',
     open: true

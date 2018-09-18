@@ -5,6 +5,7 @@ body {
 
   .header {
     background-image: resolve("drops.png");
+    padding: 10px;
   }
 
   .profile {
@@ -15,6 +16,19 @@ body {
 .test {
   .inner {
     padding: 20px;
+  }
+
+  &_group {
+    color: #efefef;
+
+    &_test {
+      border-bottom: 1px solid #000;
+
+      &_depth {
+        background-color: #efefef;
+        margin: auto;
+      }
+    }
   }
 }
 

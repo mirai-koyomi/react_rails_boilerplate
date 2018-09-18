@@ -1,6 +1,7 @@
 {
   "plugins": [
-    "stylelint-scss"
+    "stylelint-scss",
+    "stylelint-order"
   ],
   "syntax": "scss",
   "rules": {
@@ -135,7 +136,9 @@
     "indentation": 2,
     "linebreaks": "unix",
     "max-empty-lines": 1,
+    "max-nesting-depth": 3,
     "no-eol-whitespace": true,
-    "no-missing-end-of-source-newline": true
+    "no-missing-end-of-source-newline": true,
+    "order/properties-alphabetical-order": true
   }
 }
