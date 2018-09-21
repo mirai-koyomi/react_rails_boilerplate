@@ -1,5 +1,5 @@
 const path = require('path');
-const MODE = 'development';
+const MODE = process.env.NODE_ENV || 'development';
 const enabledSourceMap = (MODE === 'development');
 
 module.exports = {
@@ -11,7 +11,7 @@ module.exports = {
     path: `${__dirname}/client/www`,
     filename: 'bundle.js'
   },
-  devtool: 'source-map',
+  devtool: enabledSourceMap ? 'source-map' : false,
   module: {
     rules: [
       {
@@ -23,7 +23,7 @@ module.exports = {
               presets: [
                 '@babel/preset-env',
                 '@babel/react'
-              ]
+              ],
             }
           },
           {

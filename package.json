@@ -54,6 +54,7 @@
   },
   "scripts": {
     "dev": "webpack --watch --mode development",
+    "server": "yarn webpack-dev-server",
     "build": "webpack --mode production"
   }
 }
