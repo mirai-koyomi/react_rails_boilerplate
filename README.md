@@ -34,5 +34,11 @@ __commitの際は`git cz`で行うように。__
 
 
 ## TODO
-- HTML側のプリレンダの策定（React）との相性も含めて吟味
-- babelの設定見直し
+
+- HTML側のプリレンダの策定（React）との相性も含めて吟味（多分ねぇだろ）
+
+## 心に刻め
+
+https://employment.en-japan.com/engineerhub/entry/2018/01/24/110000
+
+https://qiita.com/numanomanu/items/45dd285b286a1f7280ed
