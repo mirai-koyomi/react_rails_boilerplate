@@ -1,9 +1,13 @@
 {
   "plugins": [
     "stylelint-scss",
-    "stylelint-order"
+    "stylelint-order",
+    "stylelint-prettier"
   ],
   "syntax": "scss",
+  "extends": [
+    "stylelint-prettier/recommended"
+  ],
   "rules": {
     "color-no-invalid-hex": true,
     "font-family-no-duplicate-names": true,
@@ -139,6 +143,7 @@
     "max-nesting-depth": 3,
     "no-eol-whitespace": true,
     "no-missing-end-of-source-newline": true,
-    "order/properties-alphabetical-order": true
+    "order/properties-alphabetical-order": true,
+    "prettier/prettier": true
   }
 }

@@ -9780,12 +9780,12 @@ module.exports = __webpack_require__(/*! ../modules/_core */ "./node_modules/cor
 /***/ (function(module, exports, __webpack_require__) {
 
 var escape = __webpack_require__(/*! ../../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
-exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(true);
 // imports
 
 
 // module
-exports.push([module.i, "body{background-color:#efefef;width:1500px}body,body .header{background-image:url(" + escape(__webpack_require__(/*! ../img/drops.png?1657eba5790 */ "./client/src/img/drops.png?1657eba5790")) + ")}body .header{padding:10px}body .profile{background-image:url(" + escape(__webpack_require__(/*! ../img/profile.png?15b6b417a68 */ "./client/src/img/profile.png?15b6b417a68")) + ")}.test .inner{padding:20px}.test_group{color:#efefef}.test_group_test{border-bottom:1px solid #000}.test_group_test_depth{background-color:#efefef;margin:auto}.game,.normal{color:#fff}", ""]);
+exports.push([module.i, "body{background-color:#efefef;width:1500px}body,body .header{background-image:url(" + escape(__webpack_require__(/*! ../img/drops.png?1657eba5790 */ "./client/src/img/drops.png?1657eba5790")) + ")}body .header{padding:10px}body .profile{background-image:url(" + escape(__webpack_require__(/*! ../img/profile.png?15b6b417a68 */ "./client/src/img/profile.png?15b6b417a68")) + ")}.test .inner{padding:20px}.test_group{color:#efefef}.test_group_test{border-bottom:1px solid #000}.test_group_test_depth{background-color:#efefef;margin:auto}.game,.normal{color:#fff}", "", {"version":3,"sources":["/Applications/XAMPP/xamppfiles/htdocs/devel/sandbox/react_rails_boilerplate/client/src/css/index.scss"],"names":[],"mappings":"AAAA,KACE,yBAAyB,YAEO,CAHlC,kBAEE,8CAAsC,CAFxC,aAOI,YAAa,CAPjB,cAWI,8CAAwC,CACzC,aAKC,YAAa,CACd,YAGC,aAAc,CAEd,iBACE,4BAA6B,CAE7B,uBACE,yBAAyB,WACb,CACb,cAUL,UAAW,CACZ","file":"index.scss","sourcesContent":["body {\n  background-color: #efefef;\n  background-image: resolve(\"drops.png\");\n  width: width(\"../img/drops.png\");\n\n  .header {\n    background-image: resolve(\"drops.png\");\n    padding: 10px;\n  }\n\n  .profile {\n    background-image: resolve(\"profile.png\");\n  }\n}\n\n.test {\n  .inner {\n    padding: 20px;\n  }\n\n  &_group {\n    color: #efefef;\n\n    &_test {\n      border-bottom: 1px solid #000;\n\n      &_depth {\n        background-color: #efefef;\n        margin: auto;\n      }\n    }\n  }\n}\n\n.game {\n  color: #fff;\n}\n\n.normal {\n  color: #fff;\n}\n"],"sourceRoot":""}]);
 
 // exports
 
@@ -11209,3 +11209,4 @@ module.exports = __webpack_require__(/*! /Applications/XAMPP/xamppfiles/htdocs/d
 /***/ })
 
 /******/ });
+//# sourceMappingURL=bundle.js.map
