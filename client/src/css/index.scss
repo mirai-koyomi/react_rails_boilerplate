@@ -27,6 +27,10 @@ body {
       &_depth {
         background-color: #efefef;
         margin: auto;
+
+        &_depth {
+          font-weight: bold;
+        }
       }
     }
   }
