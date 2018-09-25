@@ -5,7 +5,7 @@ const enabledSourceMap = (MODE === 'development');
 module.exports = {
   mode: MODE,
   entry: {
-    'index': [path.resolve(__dirname, 'client/src/js/index.js')]
+    'index': [path.resolve(__dirname, 'client/src/js/index.jsx')]
   },
   output: {
     path: `${__dirname}/client/www`,
