@@ -9,9 +9,7 @@ class TodoList extends Component {
   }
 
   render() {
-    let todoItems = []
-
-    this.items.map( ({name, description, done}) => {
+    const todoItems = this.items.map( ({name, description, done}) => {
       return <TodoItem key={name} name={name} description={description} done={done} />
     })
 
