@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types';
 import TodoItem from './todo_item'
+import { hot } from 'react-hot-loader'
 
 class TodoList extends Component {
   constructor(props) {
@@ -29,4 +30,4 @@ TodoList.propTypes = {
     })).isRequired,
 };
 
-export default TodoList
+export default hot(module)(TodoList)

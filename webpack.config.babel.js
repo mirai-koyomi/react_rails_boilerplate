@@ -25,6 +25,9 @@ module.exports = {
                 '@babel/preset-env',
                 '@babel/react'
               ],
+              plugins: [
+                'react-hot-loader/babel'
+              ]
             }
           },
           {

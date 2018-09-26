@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import imgAppLogo from '../img/logo.svg'
 import TodoList from './components/todo_list'
+import { hot } from 'react-hot-loader'
 
 class App extends Component {
   constructor(props) {
@@ -37,4 +38,4 @@ App.propTypes = {
     })).isRequired,
 };
 
-export default App
+export default hot(module)(App)

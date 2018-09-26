@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types';
+import { hot } from 'react-hot-loader'
 
 const TodoItem = ({ name, description, done }) => {
   const className = done? 'todo-list__item--done' : 'todo-list__item'
@@ -22,4 +23,4 @@ TodoItem.defaultProps = {
   description: ''
 };
 
-export default TodoItem
+export default hot(module)(TodoItem)
