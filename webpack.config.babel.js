@@ -1,6 +1,7 @@
 const path = require('path');
 const MODE = process.env.NODE_ENV || 'development';
 const enabledSourceMap = (MODE === 'development');
+const htmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   mode: MODE,
@@ -70,6 +71,15 @@ module.exports = {
         ]
       },
       {
+        test: /\.html$/,
+        use: [
+          {
+            loader: 'html-loader',
+            options: { minimize: true }
+          }
+        ]
+      },
+      {
         test: /\.(gif|png|jpg|eot|wof|woff|woff2|ttf|svg)$/,
         use: [
           {
@@ -87,7 +97,11 @@ module.exports = {
     extensions: ['.js', '.jsx']
   },
   plugins: [
-    require('stylelint-webpack-plugin')({fix: true})
+    require('stylelint-webpack-plugin')({fix: true}),
+    new htmlWebpackPlugin({
+      template: 'client/src/html/index.html',
+      filename: 'index.html',
+    })
   ],
   devServer: {
     contentBase: 'client/www',
