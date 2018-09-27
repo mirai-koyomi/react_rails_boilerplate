@@ -1,0 +1,51 @@
+{
+  "coverage": "6.66%",
+  "expectCount": 15,
+  "actualCount": 1,
+  "files": {
+    "js/app.jsx": {
+      "expectCount": 4,
+      "actualCount": 1,
+      "undocumentLines": [
+        12,
+        15,
+        20
+      ]
+    },
+    "js/components/todo_item.jsx": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        5
+      ]
+    },
+    "js/components/todo_list.jsx": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        7,
+        9,
+        12
+      ]
+    },
+    "js/index.jsx": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        10
+      ]
+    },
+    "js/sub-component.jsx": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        4,
+        6,
+        11,
+        18
+      ]
+    }
+  }
+}

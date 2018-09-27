@@ -4,6 +4,10 @@ import imgAppLogo from '../img/logo.svg'
 import TodoList from './components/todo_list'
 import { hot } from 'react-hot-loader'
 
+/**
+ * This is MyClass.
+ * @reactProps {object} todo - this is prop1
+ */
 class App extends Component {
   constructor(props) {
     super(props)

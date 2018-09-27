@@ -1,0 +1,928 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "js/.external-ecmascript.js",
+    "static": true,
+    "longname": "js/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "js/app.jsx",
+    "content": "import React, { Component } from 'react';\nimport PropTypes from 'prop-types';\nimport imgAppLogo from '../img/logo.svg'\nimport TodoList from './components/todo_list'\nimport { hot } from 'react-hot-loader'\n\n/**\n * This is MyClass.\n * @reactProps {object} todo - this is prop1\n */\nclass App extends Component {\n  constructor(props) {\n    super(props)\n\n    this.state = {\n      todo: props.todo\n    }\n  }\n\n  render() {\n    const { todo } = this.state\n\n    return (\n      <div className=\"app\">\n        <div className=\"app__header\">\n          <img src={ imgAppLogo } alt=\"logo\" className=\"app__logo\"/>\n        </div>\n\n        <div className=\"app__contents\">\n          <TodoList items={ todo } />\n        </div>\n      </div>\n    )\n  }\n}\n\nApp.propTypes = {\n  todo: PropTypes.arrayOf(PropTypes.shape({\n      name: PropTypes.string.isRequired,\n      description: PropTypes.string,\n      done: PropTypes.bool,\n    })).isRequired,\n};\n\nexport default hot(module)(App)",
+    "static": true,
+    "longname": "/Applications/XAMPP/xamppfiles/htdocs/devel/sandbox/react_rails_boilerplate/client/src/js/app.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "class",
+    "name": "App",
+    "memberof": "js/app.jsx",
+    "static": true,
+    "longname": "js/app.jsx~App",
+    "access": "public",
+    "export": false,
+    "importPath": "react_rails_boilerplate/js/app.jsx",
+    "importStyle": null,
+    "description": "This is MyClass.",
+    "lineNumber": 11,
+    "unknown": [
+      {
+        "tagName": "@reactProps",
+        "tagValue": "{object} todo - this is prop1"
+      }
+    ],
+    "interface": false,
+    "extends": [
+      "react~Component"
+    ],
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "js/app.jsx~App",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "js/app.jsx~App#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "member",
+    "name": "state",
+    "memberof": "js/app.jsx~App",
+    "static": false,
+    "longname": "js/app.jsx~App#state",
+    "access": "public",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"todo\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "method",
+    "name": "render",
+    "memberof": "js/app.jsx~App",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "js/app.jsx~App#render",
+    "access": "public",
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "file",
+    "name": "js/components/todo_item.jsx",
+    "content": "import React from 'react'\nimport PropTypes from 'prop-types';\nimport { hot } from 'react-hot-loader'\n\nconst TodoItem = ({ name, description, done }) => {\n  const className = done? 'todo-list__item--done' : 'todo-list__item'\n\n  return (\n    <li className={className}>\n      <p className=\"todo-list__name\">{name}</p>\n      <p className=\"todo-list__description\">{description}</p>\n    </li>\n  )\n}\n\nTodoItem.propTypes = {\n  name: PropTypes.string.isRequired,\n  description: PropTypes.string,\n  done: PropTypes.bool,\n};\n\nTodoItem.defaultProps = {\n  description: '',\n  done: false\n};\n\nexport default hot(module)(TodoItem)",
+    "static": true,
+    "longname": "/Applications/XAMPP/xamppfiles/htdocs/devel/sandbox/react_rails_boilerplate/client/src/js/components/todo_item.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 54,
+    "kind": "function",
+    "name": "TodoItem",
+    "memberof": "js/components/todo_item.jsx",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "js/components/todo_item.jsx~TodoItem",
+    "access": "public",
+    "export": false,
+    "importPath": "react_rails_boilerplate/js/components/todo_item.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"name\": *, \"description\": *, \"done\": *}"
+        ],
+        "defaultRaw": {
+          "name": null,
+          "description": null,
+          "done": null
+        },
+        "defaultValue": "{\"name\":null,\"description\":null,\"done\":null}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 55,
+    "kind": "file",
+    "name": "js/components/todo_list.jsx",
+    "content": "import React, { Component } from 'react'\nimport PropTypes from 'prop-types';\nimport TodoItem from './todo_item'\nimport { hot } from 'react-hot-loader'\n\nclass TodoList extends Component {\n  constructor(props) {\n    super(props)\n    this.items = props.items\n  }\n\n  render() {\n    const todoItems = this.items.map( ({name, description, done}) => {\n      return <TodoItem key={name} name={name} description={description} done={done} />\n    })\n\n    return (\n      <ul className=\"todo-List\">\n        {todoItems}\n      </ul>\n    )\n  }\n}\n\nTodoList.propTypes = {\n  items: PropTypes.arrayOf(PropTypes.shape({\n      name: PropTypes.string.isRequired,\n      description: PropTypes.string,\n      done: PropTypes.bool,\n    })).isRequired,\n};\n\nexport default hot(module)(TodoList)",
+    "static": true,
+    "longname": "/Applications/XAMPP/xamppfiles/htdocs/devel/sandbox/react_rails_boilerplate/client/src/js/components/todo_list.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 56,
+    "kind": "class",
+    "name": "TodoList",
+    "memberof": "js/components/todo_list.jsx",
+    "static": true,
+    "longname": "js/components/todo_list.jsx~TodoList",
+    "access": "public",
+    "export": false,
+    "importPath": "react_rails_boilerplate/js/components/todo_list.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "react~Component"
+    ],
+    "ignore": true
+  },
+  {
+    "__docId__": 57,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "js/components/todo_list.jsx~TodoList",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "js/components/todo_list.jsx~TodoList#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true
+  },
+  {
+    "__docId__": 58,
+    "kind": "member",
+    "name": "items",
+    "memberof": "js/components/todo_list.jsx~TodoList",
+    "static": false,
+    "longname": "js/components/todo_list.jsx~TodoList#items",
+    "access": "public",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "method",
+    "name": "render",
+    "memberof": "js/components/todo_list.jsx~TodoList",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "js/components/todo_list.jsx~TodoList#render",
+    "access": "public",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "file",
+    "name": "js/index.jsx",
+    "content": "// @flow\nimport React from 'react'\nimport ReactDOM from 'react-dom'\nimport App from './app'\n\nimport '@babel/polyfill'\nimport '../css/index.scss'\nimport '../html/index.html'\n\nconst todo = [\n    {\n      name: 'test01',\n      description: 'samplesamplesample',\n      done: false\n    },\n    {\n      name: 'test02',\n      description: 'samplesamplesample',\n      done: false\n    }\n  ]\n\n\nReactDOM.render(<App todo={todo} />, document.getElementById('root'))",
+    "static": true,
+    "longname": "/Applications/XAMPP/xamppfiles/htdocs/devel/sandbox/react_rails_boilerplate/client/src/js/index.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 61,
+    "kind": "variable",
+    "name": "todo",
+    "memberof": "js/index.jsx",
+    "static": true,
+    "longname": "js/index.jsx~todo",
+    "access": "public",
+    "export": false,
+    "importPath": "react_rails_boilerplate/js/index.jsx",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "undefined[]"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 62,
+    "kind": "file",
+    "name": "js/sub-component.jsx",
+    "content": "import React from 'react';\n\nexport class SubComponent extends React.Component {\n  constructor() {\n    super();\n    this.state = {\n      count: 0\n    };\n  }\n\n  handleClick() {\n    console.log('クリックされました');\n    this.setState({\n      count: this.state.count + 1\n    });\n  }\n\n  render() {\n    return (\n      <div>\n        <h2>{this.props.name}</h2>\n        <div>{this.state.count}</div>\n        <button onClick={this.handleClick.bind(this)}>Add +1</button>\n      </div>\n    );\n  }\n}",
+    "static": true,
+    "longname": "/Applications/XAMPP/xamppfiles/htdocs/devel/sandbox/react_rails_boilerplate/client/src/js/sub-component.jsx",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 63,
+    "kind": "class",
+    "name": "SubComponent",
+    "memberof": "js/sub-component.jsx",
+    "static": true,
+    "longname": "js/sub-component.jsx~SubComponent",
+    "access": "public",
+    "export": true,
+    "importPath": "react_rails_boilerplate/js/sub-component.jsx",
+    "importStyle": "{SubComponent}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "react~React.Component"
+    ]
+  },
+  {
+    "__docId__": 64,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "js/sub-component.jsx~SubComponent",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "js/sub-component.jsx~SubComponent#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true
+  },
+  {
+    "__docId__": 65,
+    "kind": "member",
+    "name": "state",
+    "memberof": "js/sub-component.jsx~SubComponent",
+    "static": false,
+    "longname": "js/sub-component.jsx~SubComponent#state",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"count\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 66,
+    "kind": "method",
+    "name": "handleClick",
+    "memberof": "js/sub-component.jsx~SubComponent",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "js/sub-component.jsx~SubComponent#handleClick",
+    "access": "public",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 67,
+    "kind": "method",
+    "name": "render",
+    "memberof": "js/sub-component.jsx~SubComponent",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "js/sub-component.jsx~SubComponent#render",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "kind": "index",
+    "content": "# README\n\nThis README would normally document whatever steps are necessary to get the\napplication up and running.\n\nThings you may want to cover:\n\n* Ruby version\n\n* System dependencies\n\n* Configuration\n\n* Database creation\n\n* Database initialization\n\n* How to run the test suite\n\n* Services (job queues, cache servers, search engines, etc.)\n\n* Deployment instructions\n\n* ...\n\n\n## 開発の際のお約束事。\n\n__commitの際は`git cz`で行うように。__\n\n具体的に言うと、`git cz`でコミットコメントにある程度の制限と規則性を強制したい。  \n人間という生き物は統一性というものをなかなか維持できないし、ある程度敷かれたレールの上を走る方が自由だったりするものなのだ。\n\n\n\n## TODO\n\n- HTML側のプリレンダの策定（React）との相性も含めて吟味（多分ねぇだろ）\n\n## 心に刻め\n\nhttps://employment.en-japan.com/engineerhub/entry/2018/01/24/110000\n\nhttps://qiita.com/numanomanu/items/45dd285b286a1f7280ed",
+    "longname": "/Applications/XAMPP/xamppfiles/htdocs/devel/sandbox/react_rails_boilerplate/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"react_rails_boilerplate\",\n  \"version\": \"1.0.0\",\n  \"main\": \"index.js\",\n  \"repository\": \"https://github.com/mirai-koyomi/react_rails_boilerplate.git\",\n  \"author\": \"cyan_magenta\",\n  \"license\": \"UNLICENSED\",\n  \"private\": true,\n  \"devDependencies\": {\n    \"@babel/core\": \"^7.0.0\",\n    \"@babel/preset-env\": \"^7.0.0\",\n    \"@babel/preset-react\": \"^7.0.0\",\n    \"autoprefixer\": \"^9.1.3\",\n    \"babel-eslint\": \"^9.0.0\",\n    \"babel-loader\": \"^8.0.0\",\n    \"clean-webpack-plugin\": \"^0.1.19\",\n    \"css-declaration-sorter\": \"^4.0.1\",\n    \"css-loader\": \"^1.0.0\",\n    \"css-mqpacker\": \"^7.0.0\",\n    \"cssnano\": \"^4.1.0\",\n    \"cz-conventional-changelog\": \"^2.1.0\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-ecmascript-proposal-plugin\": \"^1.0.0\",\n    \"esdoc-external-ecmascript-plugin\": \"^1.0.0\",\n    \"esdoc-jsx-plugin\": \"^1.0.0\",\n    \"esdoc-react-plugin\": \"^1.0.1\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^5.4.0\",\n    \"eslint-config-airbnb\": \"^17.1.0\",\n    \"eslint-config-prettier\": \"^3.0.1\",\n    \"eslint-loader\": \"^2.1.0\",\n    \"eslint-plugin-flowtype\": \"^2.50.0\",\n    \"eslint-plugin-import\": \"^2.14.0\",\n    \"eslint-plugin-jsx-a11y\": \"^6.1.1\",\n    \"eslint-plugin-prettier\": \"^2.6.2\",\n    \"eslint-plugin-react\": \"^7.11.1\",\n    \"file-loader\": \"^2.0.0\",\n    \"flow-bin\": \"^0.79.1\",\n    \"html-loader\": \"^0.5.5\",\n    \"html-webpack-plugin\": \"^3.2.0\",\n    \"node-sass\": \"^4.9.3\",\n    \"path\": \"^0.12.7\",\n    \"postcss-assets\": \"^5.0.0\",\n    \"postcss-import\": \"^12.0.0\",\n    \"postcss-loader\": \"^3.0.0\",\n    \"prettier\": \"^1.14.3\",\n    \"sass-loader\": \"^7.1.0\",\n    \"style-loader\": \"^0.23.0\",\n    \"stylelint\": \"^9.5.0\",\n    \"stylelint-config-prettier\": \"^4.0.0\",\n    \"stylelint-order\": \"^1.0.0\",\n    \"stylelint-prettier\": \"^1.0.1\",\n    \"stylelint-scss\": \"^3.3.0\",\n    \"stylelint-webpack-plugin\": \"^0.10.5\",\n    \"url-loader\": \"^1.1.1\",\n    \"webpack\": \"^4.17.1\",\n    \"webpack-cli\": \"^3.1.0\",\n    \"webpack-dev-server\": \"^3.1.6\"\n  },\n  \"dependencies\": {\n    \"@babel/polyfill\": \"^7.0.0\",\n    \"prop-types\": \"^15.6.2\",\n    \"react\": \"^16.4.2\",\n    \"react-dom\": \"^16.4.2\",\n    \"react-hot-loader\": \"^4.3.11\"\n  },\n  \"config\": {\n    \"commitizen\": {\n      \"path\": \"./node_modules/cz-conventional-changelog\"\n    }\n  },\n  \"scripts\": {\n    \"dev\": \"webpack --watch --mode development\",\n    \"server\": \"webpack-dev-server --hot --mode development\",\n    \"build\": \" rm -rf client/www/* && webpack --mode production\",\n    \"cleanup\": \"rm -rf node_modules && yarn\"\n  }\n}\n",
+    "longname": "/Applications/XAMPP/xamppfiles/htdocs/devel/sandbox/react_rails_boilerplate/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]
