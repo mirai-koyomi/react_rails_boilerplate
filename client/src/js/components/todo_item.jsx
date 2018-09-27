@@ -16,11 +16,12 @@ const TodoItem = ({ name, description, done }) => {
 TodoItem.propTypes = {
   name: PropTypes.string.isRequired,
   description: PropTypes.string,
-  done: PropTypes.bool.isRequired,
+  done: PropTypes.bool,
 };
 
 TodoItem.defaultProps = {
-  description: ''
+  description: '',
+  done: false
 };
 
 export default hot(module)(TodoItem)
