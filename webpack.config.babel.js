@@ -20,13 +20,15 @@ module.exports = {
         use: [
           {
             loader: 'babel-loader',
+            exclude: /node_modules/,
             options: {
               presets: [
                 '@babel/preset-env',
                 '@babel/react'
               ],
               plugins: [
-                'react-hot-loader/babel'
+                'react-hot-loader/babel',
+                'transform-flow-strip-types'
               ]
             }
           },
@@ -109,5 +111,8 @@ module.exports = {
   devServer: {
     contentBase: 'client/www',
     open: true
+  },
+  performance: {
+    hint: false
   }
 };

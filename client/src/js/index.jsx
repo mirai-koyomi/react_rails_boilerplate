@@ -5,7 +5,6 @@ import App from './app'
 
 import '@babel/polyfill'
 import '../css/index.scss'
-import '../html/index.html'
 
 const todo = [
     {
