@@ -1,24 +1,24 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+// @flow
+import * as React from 'react';
 import imgAppLogo from '../img/logo.svg'
 import TodoList from './components/todo_list'
 import { hot } from 'react-hot-loader'
+
+type Props = {
+  todo: Array<any>,
+}
+
 
 /**
  * This is MyClass.
  * @reactProps {object} todo - this is prop1
  */
-class App extends Component {
-  constructor(props) {
-    super(props)
+class App extends Component<Props> {
+  constructor(props: Props) {
 
-    this.state = {
-      todo: props.todo
-    }
   }
-
   render() {
-    const { todo } = this.state
+    const { todo, test } = props
 
     return (
       <div className="app">
@@ -27,19 +27,11 @@ class App extends Component {
         </div>
 
         <div className="app__contents">
-          <TodoList items={ todo } />
+          <TodoList test={ test } items={ todo } />
         </div>
       </div>
     )
   }
 }
-
-App.propTypes = {
-  todo: PropTypes.arrayOf(PropTypes.shape({
-      name: PropTypes.string.isRequired,
-      description: PropTypes.string,
-      done: PropTypes.bool,
-    })).isRequired,
-};
 
 export default hot(module)(App)
